@@ -15,7 +15,7 @@ ST_Slope_encoder = pickle.load(open('encoder.ST_Slope.sav', 'rb'))
 
 evaluations = pickle.load(open('evals.all.sav', 'rb'))
 
-st.title('Heart Disease Prediction')
+st.title('💔 Heart Disease Prediction 💔')
 
 tab1, tab2 = st.tabs(["Prediction", "Model Evaluations"])
 
