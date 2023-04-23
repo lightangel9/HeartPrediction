@@ -1,4 +1,3 @@
-
 import streamlit as st 
 import numpy as np
 import pandas as pd
@@ -63,5 +62,3 @@ with tab2:
     st.plotly_chart(fig, use_container_width=True)
 
     st.dataframe(evaluations)
-
-    
