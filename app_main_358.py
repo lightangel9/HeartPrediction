@@ -56,7 +56,7 @@ with tab2:
     
     x = evaluations.columns
     fig = px.Figure(data=[
-        px.Bar(name='Decision Tree', x=x, y=evaluations.loc['Decision Tress']),
+        px.Bar(name='Decision Tree', x=x, y=evaluations.loc['Decision Tree']),
         px.Bar(name='Random Forest', x=x, y=evaluations.loc['Random Forest']),
         px.Bar(name='XGBoost', x=x, y=evaluations.loc['XGBoost'])
     ])
