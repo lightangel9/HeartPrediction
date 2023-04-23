@@ -62,3 +62,7 @@ with tab2:
     st.plotly_chart(fig, use_container_width=True)
 
     st.dataframe(evaluations)
+
+    
+st.sidebar.info("**💾 More informations:**")
+st.sidebar.caption("[🔗Github](https://github.com/lightangel9/HeartPrediction)")
